@@ -42,3 +42,5 @@ Una vez instaladas las dependencias, iniciar la aplicación Streamlit con:
 ```bash
 streamlit run main.py
 ```
+abandonos50k.csv es para el modelo de "Prediccion de abandono"
+segmentacion-ventas-50k.csv es para el modelo de "Prediccion de ventas" y "segmentacion"
