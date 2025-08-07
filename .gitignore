@@ -1,1 +1,58 @@
+# Entorno virtual
 .venv/
+venv/
+ENV/
+env/
+*.env
+*.venv
+
+# Archivos de cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de configuración local
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# Jupyter Notebooks checkpoints (si usas Jupyter)
+.ipynb_checkpoints/
+
+# Archivos de testing
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+
+# Directorios de distribución
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de editores de texto/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Streamlit (configuración local del usuario)
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Archivos de entorno
+.env
+.env.*
+
+# Otros archivos innecesarios
+logs/
